@@ -1,0 +1,231 @@
+:root {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white,rgb(121, 120, 120));
+  }
+
+  #img {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    justify-content: flex-start;
+    padding-top: 2.5rem;
+    padding-left: 2.2rem;
+    flex-wrap: wrap;
+    width: 4.5rem;
+  
+  }
+
+  .item {
+    font-size: 2.4rem;
+    padding: 2.5rem 5.2rem;
+    font-family: 'Goldman', cursive;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    left: 456px;
+  }
+
+  #texto {
+    font-size: 25px;
+    color:black;
+    width: 757px;
+    height: 454px;
+    background: linear-gradient(white,rgb(121, 120, 120));
+    resize: none;
+    outline: none;  
+    border: none;
+    position: absolute;
+    left: 240px;
+    top: 168px;
+    font-weight: bold;
+  }
+
+
+  .aviso {
+    color: darkred;
+    position: absolute;
+    font-size: 16px;
+    left: 355px;
+    top: 789px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  
+  }
+
+  .button{
+      position: absolute;
+      top: 855px;
+      left: 290px;
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: #000000;
+      background-color: #ff0000;
+      border-radius: 15px;
+      border: 3px double #000000;
+      cursor: pointer;
+  }
+
+  .button:hover{
+     opacity: 0.6;
+     text-decoration: none;
+  }
+
+  .button1{
+      position: absolute;
+      top: 855px;
+      left: 542px;
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: #000000;
+      background-color: #ff0000;
+      border-radius: 15px;
+      border: 3px double #000000;
+      cursor: pointer;
+  }
+
+  .button1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  #copiar{
+    position: absolute;
+      top: 882px;
+      left: 1654px;
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: #000000;
+      background-color: #ff0000;
+      border-radius: 15px;
+      border: 3px double #000000;
+      cursor: pointer;
+
+  }
+
+  #copiar:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  #gif {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 216px;
+      left: 1606px;
+
+
+  }
+
+
+  #texto3 {
+      position: absolute;
+      width: 400px;
+      height: 793px;
+      left: 1486px;
+      top: 40px;
+      resize: none;
+      outline: none;
+      border-radius: 15px;
+      border: 3px, double, black;
+
+  }
+
+
+  .background {
+    font-size: 1rem;
+    background-color: black;
+    color: #E1F3EF;
+  }
+
+
+  .nombre {
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 1658px;
+    color: rgb(255, 0, 0);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+  
+  }
+  
+  .digito {
+    position: absolute;
+    text-align: center;
+    max-width: fit-content;
+    top: 491px;
+    left: 1447px;
+    font-size: medium;
+    color: rgb(255, 0, 0);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+  }
+  
+
+
+  .z-index {
+    z-index: -1;
+  }
+
+
+  .invalido {
+    font-size: small;
+    text-align: center;
+    border: 0.12rem solid black;
+    border-radius: 90px;
+    width: fit-content;
+    padding: 0.3rem;
+    background-color: #ff7f5000;
+    opacity: 0;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 677px;
+    left: 392px;
+  
+  }
+  
+  .valido {
+    position: relative;
+    font-size: small;
+    text-align: center;
+    border: 0.12rem solid black;
+    border-radius: 90px;
+    width: fit-content;
+    padding: 0.3rem;
+    background-color: rgba(65, 105, 225, 0);
+    opacity: 0;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 674px;
+    left: 392px;
+
+  }
+
+  .info{
+    position: absolute;
+    top: 919px;
+    left: 248px;
+    font-family: 'Goldman', cursive;
+    font-size: large;
+
+  }
